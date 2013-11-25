@@ -1,17 +1,15 @@
 <idea-plugin version="2">
-  <id>com.yourcompany.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.kubrynski.fatality</id>
+  <name>Fatality mode shortcuts</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="jkubrynski@gmail.com" url="http://www.kubrynski.com">Jakub Kubrynski</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <small>most HTML tags may be used</small>
+      This plugin enables keyboard shortcuts mode known from Mortal Combat - you can enter them sequentially
       ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <small>most HTML tags may be used</small>
+      1.0 Initial version
       ]]>
   </change-notes>
 
@@ -27,7 +25,7 @@
   <application-components>
     <!-- Add your application components here -->
       <component>
-          <implementation-class>fatality.Fatality</implementation-class>
+          <implementation-class>com.kubrynski.fatality.Fatality</implementation-class>
       </component>
   </application-components>
 
