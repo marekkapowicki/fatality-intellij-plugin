@@ -1,0 +1,2 @@
+fatality-intellij-plugin
+========================
