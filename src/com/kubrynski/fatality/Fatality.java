@@ -60,6 +60,10 @@ public class Fatality implements ApplicationComponent, AWTEventListener, KeyList
             return;
         }
 
+        if (code == KeyEvent.VK_ESCAPE) {
+            clearState();
+        }
+
         if (code == KeyEvent.VK_SHIFT) {
             processModifier(InputEvent.SHIFT_DOWN_MASK);
         } else if (code == KeyEvent.VK_CONTROL) {
